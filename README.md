@@ -1,5 +1,5 @@
 # IA_2019.01_Lab_02
-Problema 'Quem matou tia Agatha?' em java utilizando a biblioteca [Choco Solver](http://www.choco-solver.org/)(v.4) para Problemas de Satisfação de Restrições (CSP).
+Problema 'Quem matou tia Agatha?' em java utilizando a biblioteca [Choco Solver](http://www.choco-solver.org/)(v.4.10.0) para Problemas de Satisfação de Restrições (CSP).
 
 ## Descrição do Problema
 Alguem na mansão matou tia Agatha.
@@ -20,7 +20,7 @@ Quem é o assassino?
 
 
 # IA_2019.01_Lab_02
-'Who killed Agatha?' problem in Java using  [Choco Solver](http://www.choco-solver.org/)(v.4) a CSP library.
+'Who killed Agatha?' problem in Java using  [Choco Solver](http://www.choco-solver.org/)(v.4.10.0) a CSP library.
 
 ## Problem Description
 Someone in Dreadsbury Mansion killed Aunt Agatha. 
