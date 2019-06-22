@@ -1,7 +1,9 @@
-package problema;
+package agatha;
 
+import org.chocosolver.gui.GUI;
 import org.chocosolver.solver.Model;
 import org.chocosolver.solver.Solver;
+import org.chocosolver.solver.search.strategy.Search;
 import org.chocosolver.solver.variables.IntVar;
 
 public class QuemMatouAgatha {
@@ -112,7 +114,8 @@ public class QuemMatouAgatha {
 		return null;
 	}
 	public void resolver() {
-		Solver solver = modelo.getSolver();		
+		Solver solver = modelo.getSolver();
+//		solver.plugMonitor(new GUI(solver));
 		solver.solve();
 		String assasinoEncontrado = getPersonagem(assassino.getValue());
 		
@@ -126,8 +129,9 @@ public class QuemMatouAgatha {
 		System.out.println("-> Assassino = " + assasinoEncontrado);
 		System.out.println("*********************************************************");
 		solver.printStatistics();
+		
 	}
-	
+		
 	private void printEnunciado() {
 		System.out.println("*********************************************************");
 		System.out.println("\t"+"Alguem na mansão matou tia Agatha.");
