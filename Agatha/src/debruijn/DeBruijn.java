@@ -12,7 +12,7 @@ public class DeBruijn {
 	private int tamSequenciaFinal;
 
 	private IntVar[] numDec; // sequencias em decimal
-	private IntVar[][] numBin; // decimais em binario
+	private IntVar[][] numBin; // sequencias em base igual ao tamAlfabeto
 	private IntVar[] finalBin; // sequencia De Bruijn 
 
 	public DeBruijn(int tamAlfabeto, int tamPalavra) {
