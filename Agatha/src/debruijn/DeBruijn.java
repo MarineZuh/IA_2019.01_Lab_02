@@ -102,6 +102,7 @@ public class DeBruijn {
 		System.out.println("\t"+"Dado um inteiro n e um conjunto de caracteres A de tamnho k, ");
 		System.out.println("\t"+"encontre uma sequencia S que contenha todas as sequencias");
 		System.out.println("\t"+"possiveis de S com tamanho n.");
+		
 		System.out.println("*********************************************************");
 	}
 
